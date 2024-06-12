@@ -1,0 +1,59 @@
+@import "../../theme/theme.scss";
+@import '@fontsource-variable/quicksand';
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    h1{
+    display: flex;
+    font-size: 20pt;
+    font-family: 'Quicksand Variable', sans-serif;
+    font-weight: 700;
+        span{
+            color: $purple-text;
+            margin-left: 0.5rem;
+        }
+    }
+
+    ol {
+        display: flex;
+        gap: 8%;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+      
+        .headerLink {
+          white-space: nowrap;
+          color: $black-text;
+          cursor: pointer;
+          text-align: center;
+          font-weight: 600;
+          transition: color 0.3s ease, transform 0.3s ease;
+      
+          &:hover {
+            color: $purple-soft-text;
+            transform: scale(1.2);
+          }
+        }
+      }
+
+    button {
+        color: $primary;
+        font-size: 12pt;
+        font-weight: 500;
+        padding: 15px;
+        background-color: $purple-soft-text;
+        border: none;
+        border-radius: 20px;
+        width: 7rem;
+        cursor: pointer;
+        transition: all ease 0.3s;
+
+        &:hover{
+            background-color: $purple-text;
+        }
+    }
+}
