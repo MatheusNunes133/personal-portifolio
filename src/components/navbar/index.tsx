@@ -12,7 +12,7 @@ export default function NavBar() {
         <Link href={"#"} className={style.headerLink}>
           Home
         </Link>
-        <Link href={"#"} className={style.headerLink}>
+        <Link href="#aboutMe" className={style.headerLink}>
           Sobre Mim
         </Link>
         <Link href={"#"} className={style.headerLink}>

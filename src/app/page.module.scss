@@ -101,6 +101,75 @@
             }
         }
     }
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    padding: 0 7rem;
+    width: 100%;
+    background: radial-gradient(circle at 70% 90%, #bebcf8 30%, #c4d1ff 35%, white 47%, transparent 100%);
 
 
+    h3{
+        font-family: 'Quicksand Variable', sans-serif;
+        font-weight: 700;
+        font-size: 24pt;
+        margin-bottom: 5rem;
+    }
+
+    .containerInfo{
+        display: flex;
+        width: 100%;
+    
+        article{
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            width: 70%;
+
+            .aboutMeText{
+                display: flex;
+                gap: 5%;
+
+                div{
+                    margin-top: 1.3rem;
+                    p{
+                        font-family: 'Quicksand Variable', sans-serif;
+                        font-weight: 500;
+                        font-size: 16pt;
+                        line-height: 2rem;
+                        color: $secondary;
+                        margin-bottom: 1.4rem;
+                        span{
+                            color:$purple-text
+                        }
+                    }
+
+                    .button{
+                        color: $primary;
+                        font-size: 12pt;
+                        font-weight: 500;
+                        padding: 15px;
+                        background-color: $purple-soft-text;
+                        border: none;
+                        border-radius: 20px;
+                        width: 30%;
+                        margin-bottom: 5rem;
+                        cursor: pointer;
+                        transition: all ease 0.3s;
+                
+                        &:hover{
+                            background-color: $purple-text;
+                        }
+                    }
+                }
+            }
+        }
+
+        .aboutMeImage{
+            display: flex;
+            align-self: flex-end;
+        }
+    }
 }

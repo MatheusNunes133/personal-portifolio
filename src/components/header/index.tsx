@@ -3,7 +3,7 @@ import style from "./index.module.scss";
 import Link from "next/link";
 import Navbar from "@/components/navbar";
 import Image from "next/image";
-import teste from "../../../public/teste.png";
+import teste from "../../../public/assets/pessoa.png";
 import CardItem from "../cardItem";
 
 export default function Header() {
