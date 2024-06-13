@@ -1,0 +1,23 @@
+@import "../../../src/theme/theme.scss";
+
+.cardContainer{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+
+    .cardInfo{
+        display: flex;
+        flex-direction: column;
+
+        .title{
+            color: $primary;
+        }
+
+        p{
+            color: #676573;
+        }
+
+    }
+}

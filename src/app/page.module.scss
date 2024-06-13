@@ -1,0 +1,106 @@
+@import "../theme/theme.scss";
+
+.secondSectionContainer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .secondSection{
+        width: 100%;
+        height: 20rem;
+        background-color: $secondary;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10rem 5rem 20rem 5rem;
+        gap: 50px;
+
+        .cardItensContainer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+    }
+
+    .wantToContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 20rem;
+
+        .wantTo{
+            width: 70%;
+            height: 20rem;
+            background-color: $purple-text;
+            z-index: 1;
+            margin-top: -20rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .firstCircle{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                align-self: center;
+                z-index: 2;
+                top: 0;
+                margin-top: -1.8rem;
+                border-radius: 50%;
+                width: 62px;
+                height: 62px;
+                border: 1px solid $primary;
+
+
+                .wantToArrow{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 50px;
+                    height: 50px;
+                    background-color: $primary;
+                    border-radius: 50%;
+                    z-index: 2;
+                }
+            }
+            
+            h2{
+                color: $primary;
+                text-align: center;
+                margin-top: 5rem;
+                font-family: 'Quicksand Variable', sans-serif;
+                font-weight: 700;
+                font-size: 22pt;
+            }
+
+            button{
+                border: none;
+                width: 15%;
+                height: auto;
+                padding: 1rem 0.4rem;
+                cursor: pointer;
+                background-color: $primary;
+                color: $purple-text;
+                font-family: 'Quicksand Variable', sans-serif;
+                font-weight: 700;
+                margin-top: 4rem;
+                border-radius: 10px;
+                transition: all ease 0.7s;
+
+                &:hover{
+                    background-color: $secondary;
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+
+}
