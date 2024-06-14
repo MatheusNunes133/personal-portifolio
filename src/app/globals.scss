@@ -1,4 +1,7 @@
 @import "../theme/theme.scss";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 *{
     margin: 0;
@@ -20,4 +23,11 @@
 :root {
     background-color: $primary;
     scroll-behavior: smooth;
+}
+
+#time-line-point span {
+  background-color: rgba(134, 134, 134, 0.199) !important;
+}
+#time-line-point svg{
+  color: black;
 }

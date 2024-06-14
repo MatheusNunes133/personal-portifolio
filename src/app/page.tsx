@@ -1,3 +1,5 @@
+"use client";
+
 import CardItem from "@/components/cardItem";
 import Header from "@/components/header/";
 import style from "./page.module.scss";
@@ -5,6 +7,7 @@ import Image from "next/image";
 import teste from "../../public/assets/pessoa.png";
 import citacao from "../../public/assets/citacao-esquerda.png";
 import Link from "next/link";
+import CustomizedTimeline from "@/components/customizedTimeline";
 
 export default function App() {
   return (
@@ -66,11 +69,16 @@ export default function App() {
         </div>
       </section>
       <section className={style.aboutMe} id="aboutMe">
-        <h3>Conheça um pouco de minha pessoa!</h3>
+        <h3>Quem sou eu?</h3>
         <div className={style.containerInfo}>
           <article>
             <div className={style.aboutMeText}>
-              <Image src={citacao} alt="Citação" width={40} height={40} />
+              <Image
+                src={citacao}
+                alt="Citação"
+                width={70}
+                style={{ height: 70 }}
+              />
               <div>
                 <p>
                   Olá, meu nome é <span>Matheus Nunes Miguel</span> e sou
@@ -98,6 +106,14 @@ export default function App() {
             alt="Teste de Perfil"
             className={style.aboutMeImage}
           />
+        </div>
+      </section>
+      <section className={style.timeLineSection} id="trajetoria">
+        <h3 className={style.titleLineSection}>
+          Conheça um pouco da <span>minha trajetória</span>!
+        </h3>
+        <div className={style.timeLineContainer}>
+          <CustomizedTimeline />
         </div>
       </section>
     </>

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.scss";
 
+import { ThemeModeScript } from "flowbite-react";
+
 const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -19,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+        <ThemeModeScript />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

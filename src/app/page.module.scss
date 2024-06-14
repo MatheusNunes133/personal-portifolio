@@ -124,7 +124,7 @@
     
         article{
             display: flex;
-            align-items: start;
+            align-items: flex-start;
             flex-direction: column;
             width: 70%;
 
@@ -171,5 +171,25 @@
             display: flex;
             align-self: flex-end;
         }
+    }
+}
+
+.timeLineSection{
+    display: flex;
+    flex-direction: column;
+
+    .titleLineSection{
+        font-family: 'Quicksand Variable', sans-serif;
+        font-weight: 700;
+        font-size: 24pt;
+        padding: 7rem 7rem;
+
+        span{
+            color: $purple-text
+        }
+    }
+
+    .timeLineContainer{
+        padding: 0 7rem;
     }
 }
