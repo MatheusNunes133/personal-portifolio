@@ -41,7 +41,7 @@
         }
       }
 
-    button {
+      .navbarButton {
         color: $primary;
         font-size: 12pt;
         font-weight: 500;
@@ -56,5 +56,21 @@
         &:hover{
             background-color: $purple-text;
         }
-    }
+      }
+
+      .menuHamburguer{
+        background-color: $purple-text;
+        border-radius: 20px;
+        padding-bottom: 0;
+        .icon{
+          color: $primary;
+          padding-bottom: 0;
+        }
+
+      }
+
+      @media (max-width: 1100px) {
+        
+        justify-content: space-between;
+      }
 }
