@@ -18,7 +18,7 @@ export default function NavBar() {
         <Link href="#trajetoria" className={style.headerLink}>
           Trajetória
         </Link>
-        <Link href={"#"} className={style.headerLink}>
+        <Link href="#myWorks" className={style.headerLink}>
           Trabalhos
         </Link>
         <Link href={"#"} className={style.headerLink}>

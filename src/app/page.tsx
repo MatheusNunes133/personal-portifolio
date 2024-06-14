@@ -8,6 +8,7 @@ import teste from "../../public/assets/pessoa.png";
 import citacao from "../../public/assets/citacao-esquerda.png";
 import Link from "next/link";
 import CustomizedTimeline from "@/components/customizedTimeline";
+import CarouselWork from "@/components/carousel";
 
 export default function App() {
   return (
@@ -64,7 +65,7 @@ export default function App() {
               </div>
             </div>
             <h2>Vamos trabalhar juntos e criar produtos incríveis?</h2>
-            <button>Converse Comigo</button>
+            <button>Entre em Contato</button>
           </div>
         </div>
       </section>
@@ -115,6 +116,12 @@ export default function App() {
         <div className={style.timeLineContainer}>
           <CustomizedTimeline />
         </div>
+      </section>
+      <section className={style.myWorks} id="myWorks">
+        <h3>
+          Alguns dos meus <span>Trabalhos</span>
+        </h3>
+        <CarouselWork />
       </section>
     </>
   );

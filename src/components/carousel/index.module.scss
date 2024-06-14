@@ -1,0 +1,18 @@
+@import "../../theme/theme.scss";
+
+
+.swiper {
+    display: flex;
+    width: 80%;
+    padding: 5rem 0 !important;
+    .swiperSlide {
+        display: flex;
+
+        .cardItem{
+            height: 50vh;
+            width: 100%;
+            background-color: red;
+
+        }
+    }
+}
