@@ -81,6 +81,7 @@ export default function App() {
                 alt="Citação"
                 width={70}
                 style={{ height: 70 }}
+                className={style.imageAboutMe}
               />
               <div>
                 <p>

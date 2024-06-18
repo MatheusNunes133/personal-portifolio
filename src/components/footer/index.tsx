@@ -12,13 +12,7 @@ import CopyToClipboard from "../copyToClipboard";
 export default function Footer() {
   return (
     <footer className={style.footerContainer}>
-      <Divider
-        orientation="horizontal"
-        sx={{
-          border: "2px solid white",
-          width: "70%",
-        }}
-      />
+      <Divider orientation="horizontal" className={style.divider} />
       <div className={style.menuContainer}>
         <div className={style.menuNav}>
           <h4>Menu</h4>
