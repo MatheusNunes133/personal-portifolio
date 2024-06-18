@@ -10,6 +10,7 @@ import citacaoRoxo from "../../public/assets/citacao-roxo.png";
 import Link from "next/link";
 import CustomizedTimeline from "@/components/customizedTimeline";
 import CarouselWork from "@/components/carousel";
+import Footer from "@/components/footer";
 
 export default function App() {
   return (
@@ -142,6 +143,8 @@ export default function App() {
           </div>
         </div>
       </section>
+      <section className={style.contactMe}></section>
+      <Footer />
     </>
   );
 }
