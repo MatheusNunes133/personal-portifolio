@@ -6,6 +6,7 @@ import style from "./page.module.scss";
 import Image from "next/image";
 import teste from "../../public/assets/pessoa.png";
 import citacao from "../../public/assets/citacao-esquerda.png";
+import citacaoRoxo from "../../public/assets/citacao-roxo.png";
 import Link from "next/link";
 import CustomizedTimeline from "@/components/customizedTimeline";
 import CarouselWork from "@/components/carousel";
@@ -122,6 +123,24 @@ export default function App() {
           Alguns dos meus <span>Trabalhos</span>
         </h3>
         <CarouselWork />
+      </section>
+      <section className={style.citationContainer}>
+        <div className={style.citacao}>
+          <Image
+            src={citacaoRoxo}
+            alt="Imagem de aspas de citação"
+            width={40}
+            className={style.image}
+          />
+          <h2>
+            A única maneira de fazer um excelente trabalho é amar o que você
+            faz.
+          </h2>
+          <div className={style.citacaoAuthor}>
+            <h3>Steve Jobs</h3>
+            <p>12 de Junho de 2005</p>
+          </div>
+        </div>
       </section>
     </>
   );

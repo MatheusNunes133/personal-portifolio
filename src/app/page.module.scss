@@ -210,3 +210,53 @@
         }
     }
 }
+
+.citationContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 10rem;
+    padding: 3rem;
+    background-color: #d4d3e9;
+    border-radius: 20px;
+
+    .citacao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .image{
+            padding-top: 2rem;
+            transform: rotate(180deg);
+        }
+
+        h2{
+            font-family: 'Quicksand Variable', sans-serif;
+            font-weight: 700;
+            font-size: 20pt;
+            text-align: center;
+
+            padding-bottom: 2rem;
+        }
+
+        .citacaoAuthor{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            h3{
+                font-family: 'Quicksand Variable', sans-serif;
+                font-weight: 700;
+                font-size: 16pt;
+            }
+
+            p{
+                font-family: 'Quicksand Variable', sans-serif;
+                font-weight: 500;
+                font-size: 14pt;
+            }
+        }
+    }
+}
