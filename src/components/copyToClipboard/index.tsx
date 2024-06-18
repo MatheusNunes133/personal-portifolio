@@ -15,10 +15,14 @@ export default function CopyToClipboard({ text, email }: ICopy) {
     try {
       if (email) {
         await copy("matheusnunesmiguel6@gmail.com");
-        toast.success("Email Copiado!");
+        toast.success("Email Copiado!", {
+          className: style.customToastContent,
+        });
       } else {
         await copy(text);
-        toast.success("Telefone Copiado!");
+        toast.success("Telefone Copiado!", {
+          className: style.customToastContent,
+        });
       }
     } catch (error) {
       console.log(error);

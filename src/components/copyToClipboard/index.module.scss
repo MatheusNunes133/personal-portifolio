@@ -1,4 +1,12 @@
+@import "../../theme/theme.scss";
+
 .copy{
     display: flex;
     align-items: center;
+}
+
+.customToastContent {
+    background-color: $purple-soft-text;
+    color: $primary;
+    box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.8 );
 }

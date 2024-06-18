@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import { ToastContainer } from "react-toastify";
+import { Slide, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./globals.scss";
 
@@ -28,7 +28,8 @@ export default function RootLayout({
         <ThemeModeScript />
       </head>
       <body className={inter.className}>
-        {children} <ToastContainer />
+        {children}
+        <ToastContainer transition={Slide} />
       </body>
     </html>
   );
