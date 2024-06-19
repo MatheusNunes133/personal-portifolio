@@ -33,6 +33,11 @@
                 border-radius: .5rem;
             }
         }
+
+        @media (max-width: 500px){
+            flex-direction: column;
+
+        }
     }
 
     .messageLabel{
@@ -69,6 +74,20 @@
                 color: $primary;
             }
         }
+    }
+
+    @media (max-width: 980px){
+        padding: 3rem 5rem;
+    }
+
+    @media (max-width: 670px){
+        padding: 3rem 2rem;
+    }
+
+    @media (max-width: 500px){
+        flex-direction: column;
+        padding: 3rem 2rem;
+        width: 100%;
     }
 
 }
