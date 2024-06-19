@@ -26,7 +26,7 @@ export default function NavBar() {
 
           <ol>
             <ReactScrol
-              to={"#"}
+              to="home"
               spy={true}
               smooth={true}
               duration={600}
@@ -62,7 +62,7 @@ export default function NavBar() {
               Trabalhos
             </ReactScrol>
             <ReactScrol
-              to={"#"}
+              to="contato"
               spy={true}
               smooth={true}
               duration={600}
@@ -95,7 +95,7 @@ export default function NavBar() {
             >
               <MenuItem>
                 <ReactScrol
-                  to={"#"}
+                  to="home"
                   spy={true}
                   smooth={true}
                   duration={600}
@@ -148,7 +148,7 @@ export default function NavBar() {
               <MenuItem>
                 <ReactScrol
                   onClick={handleClose}
-                  to={"#"}
+                  to="contato"
                   spy={true}
                   smooth={true}
                   duration={600}

@@ -8,7 +8,7 @@ import CardItem from "../cardItem";
 
 export default function Header() {
   return (
-    <header className={style.container}>
+    <header className={style.container} id="home">
       <Navbar />
       <section className={style.contentBox}>
         <div className={style.titleBox}>

@@ -17,7 +17,7 @@ export default function Footer() {
         <div className={style.menuNav}>
           <h4>Menu</h4>
           <ReactScrol
-            to="#"
+            to="home"
             spy={true}
             smooth={true}
             duration={600}
@@ -53,7 +53,7 @@ export default function Footer() {
             Trabalhos
           </ReactScrol>
           <ReactScrol
-            to="#"
+            to="contato"
             spy={true}
             smooth={true}
             duration={600}

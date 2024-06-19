@@ -11,6 +11,8 @@ import Link from "next/link";
 import CustomizedTimeline from "@/components/customizedTimeline";
 import CarouselWork from "@/components/carousel";
 import Footer from "@/components/footer";
+import { InputLabel, TextField, FormControl } from "@mui/material";
+import Form from "@/components/form";
 
 export default function App() {
   return (
@@ -144,7 +146,9 @@ export default function App() {
           </div>
         </div>
       </section>
-      <section className={style.contactMe}></section>
+      <section className={style.contactMe}>
+        <Form />
+      </section>
       <Footer />
     </>
   );
