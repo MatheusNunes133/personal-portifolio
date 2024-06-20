@@ -96,7 +96,7 @@ export default function Footer() {
               <CopyToClipboard text="(83)9 9179-2524" />
             </div>
             <div className={style.menuLink}>
-              <CopyToClipboard text="(83)9 9179-2524" email />
+              <CopyToClipboard text="matheusnunesmiguel6@gmail.com" email />
             </div>
           </div>
         </div>

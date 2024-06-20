@@ -14,7 +14,7 @@ export default function CopyToClipboard({ text, email }: ICopy) {
   async function handleCopy() {
     try {
       if (email) {
-        await copy("matheusnunesmiguel6@gmail.com");
+        await copy(text);
         toast.success("Email Copiado!", {
           className: style.customToastContent,
         });
@@ -32,7 +32,7 @@ export default function CopyToClipboard({ text, email }: ICopy) {
   return (
     <div onClick={handleCopy} className={style.copy}>
       <ContentCopyIcon sx={{ marginRight: ".5rem" }} />
-      <p>{email ? "Email" : text}</p>
+      <p>{email ? "E-mail" : text}</p>
     </div>
   );
 }
