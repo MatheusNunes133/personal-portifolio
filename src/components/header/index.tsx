@@ -18,12 +18,7 @@ export default function Header() {
           </h1>
         </div>
         <div className={style.imageBox}>
-          <Image
-            src={teste}
-            alt="Teste de Perfil"
-            layout="responsive"
-            className={style.perfil}
-          />
+          <Image src={teste} alt="Teste de Perfil" className={style.perfil} />
         </div>
       </section>
     </header>
