@@ -25,8 +25,8 @@
 }
 
 #time-line-point span {
-  background-color: rgba(134, 134, 134, 0.199) !important;
+  background-color: $purple-text !important;
 }
 #time-line-point svg{
-  color: black;
+  color: $primary;
 }

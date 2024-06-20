@@ -157,13 +157,7 @@ export default function NavBar() {
                   Fale Comigo
                 </ReactScrol>
               </MenuItem>
-              <MenuItem
-                sx={{
-                  backgroundColor: "#4f3dff",
-                  transition: "all 0.5s ease",
-                  ":hover": { backgroundColor: "#5a49ff", color: "white" },
-                }}
-              >
+              <MenuItem>
                 <Link href="profile.pdf" target="_blank" onClick={handleClose}>
                   Currículo
                 </Link>

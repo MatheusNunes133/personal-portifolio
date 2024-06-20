@@ -102,7 +102,7 @@ export default function Form() {
   }
   return (
     <form className={style.formContainer}>
-      <h1 id="contato">Entrar em contato</h1>
+      <h1>Entrar em contato</h1>
       <div className={style.formInfoContainer}>
         <div className={style.formInfo}>
           <label htmlFor="name">Seu Nome</label>

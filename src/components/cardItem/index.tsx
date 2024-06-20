@@ -3,7 +3,7 @@ import style from "./index.module.scss";
 import Image from "next/image";
 
 interface IProps {
-  image: string;
+  image: any;
   description: string;
   title: string;
   subTitle: string;

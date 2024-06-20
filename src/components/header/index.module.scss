@@ -12,7 +12,7 @@
         display: flex;
         flex-direction: column;
         flex: 1;
-        gap: 2%;
+        padding-top: 3rem;
         align-items: center;
         background: radial-gradient(circle at bottom center, #bebcf8 35%, #c4d1ff 45%, white 60%, transparent 100%);
 
@@ -29,17 +29,35 @@
                 span{
                     color: $purple-text;
                 }
+
+                @media (max-width:620px){
+                    font-size: 2rem;
+                    font-weight: 400;
+                }
+            }
+
+            @media (max-width:620px){
+                width: 90%;
             }
         }
 
         .imageBox {
-            width: 40%;
-            margin-top: auto;
+            width: auto;
+            margin-top: 8rem;
             display: flex;
+            flex: 1;
 
             .perfil {
-                  object-fit: contain;}
+                  object-fit: cover;
+            }
         
+        }
+
+        @media (max-width:620px){S
+
+            .titleBox{
+                font-size: 2rem;
+            }
         }
 
     }
