@@ -82,6 +82,10 @@
 
     @media (max-width:980px){
         font-size: 14pt;
-        padding: 3rem 3rem 5rem 3rem;
+        padding: 3rem 2rem 5rem 2rem;
+    }
+
+    @media (max-width:360px){
+        padding: 3rem 1rem 5rem 1rem;
     }
 }
