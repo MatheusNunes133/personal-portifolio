@@ -240,9 +240,9 @@ export default function CarouselWork() {
               <div className={style.textOverlay}>
                 <h3>NoBullying API</h3>
                 <p>
-                  API Rest voltada para a prevenção e realização de denúncias de
+                  API Rest voltada para a prevenção de denúncias de
                   bullying e assédio no Instituto Federal de Educação, Ciência e
-                  Tecnologia da Paraíba, Campus Cajazeiras.
+                  Tecnologia da Paraíba.
                 </p>
                 <div className={style.tecnologias}>
                   <Image
@@ -289,9 +289,9 @@ export default function CarouselWork() {
               <div className={style.textOverlay}>
                 <h3>Lojão Vip</h3>
                 <p>
-                  Aplicação desktop robusta e intuitiva projetada para o
-                  gerenciamento abrangente de clientes e vendas da loja,
-                  facilitando a administração de cadastros de clientes e
+                Aplicação desktop intuitiva, projetada para o
+                  gerenciamento de clientes e vendas,
+                  facilitando os cadastros de clientes e
                   controle de estoque.
                 </p>
                 <div className={style.tecnologias}>
@@ -527,9 +527,9 @@ export default function CarouselWork() {
               <div className={style.textOverlay}>
                 <h3>NoBullying API</h3>
                 <p>
-                  API Rest voltada para a prevenção e realização de denúncias de
+                API Rest voltada para a prevenção de denúncias de
                   bullying e assédio no Instituto Federal de Educação, Ciência e
-                  Tecnologia da Paraíba, Campus Cajazeiras.
+                  Tecnologia da Paraíba.
                 </p>
                 <div className={style.tecnologias}>
                   <Image
@@ -576,9 +576,9 @@ export default function CarouselWork() {
               <div className={style.textOverlay}>
                 <h3>Lojão Vip</h3>
                 <p>
-                  Aplicação desktop robusta e intuitiva projetada para o
-                  gerenciamento abrangente de clientes e vendas da loja,
-                  facilitando a administração de cadastros de clientes e
+                Aplicação desktop intuitiva, projetada para o
+                  gerenciamento de clientes e vendas,
+                  facilitando os cadastros de clientes e
                   controle de estoque.
                 </p>
                 <div className={style.tecnologias}>
