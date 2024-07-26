@@ -9,7 +9,7 @@
 
     .secondSection{
         width: 100%;
-        height: 20rem;
+        height: 40rem;
         background-color: $secondary;
         display: flex;
         flex-direction: column;
@@ -17,6 +17,15 @@
         justify-content: center;
         padding: 10rem 5rem 20rem 5rem;
         gap: 50px;
+
+        .perfilImage{
+
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            //border: 1px solid $primary;
+            background: radial-gradient(circle, #bebcf8 30%, #c4d1ff 54%, white 100%, transparent 100%);
+        }
 
         .cardItensContainer{
             display: flex;
@@ -228,11 +237,6 @@
                 align-self: center;
                 display: none;
             }
-        }
-
-                
-        @media (max-width:1200px){
-            flex-direction: column;
         }
 
         @media (max-width:980px){

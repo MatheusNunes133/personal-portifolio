@@ -4,7 +4,8 @@ import CardItem from "@/components/cardItem";
 import Header from "@/components/header/";
 import style from "./page.module.scss";
 import Image from "next/image";
-import teste from "../../public/assets/pessoa.png";
+import perfilPhoto from "../../public/assets/perfil.jpeg"
+import perfilAboutMe from "../../public/assets/perfilPhoto.png"
 import citacao from "../../public/assets/citacao-esquerda.png";
 import citacaoRoxo from "../../public/assets/citacao-roxo.png";
 import qualidadeIcon from "../../public/assets/qualidade-icon.png";
@@ -24,6 +25,11 @@ export default function App() {
       <Header />
       <section className={style.secondSectionContainer}>
         <section className={style.secondSection}>
+          <Image 
+          src={perfilPhoto}
+          alt="Foto de Perfil"
+          className={style.perfilImage}
+          />
           <div className={style.cardItensContainer}>
             <CardItem
               image={qualidadeIcon}
@@ -114,15 +120,17 @@ export default function App() {
                   maneiras de <span>aperfeiçoar</span> minhas habilidades e
                   conhecimentos.
                 </p>
-                <Link href="profile.pdf" target="_blank">
+                <Link href="resume.pdf" target="_blank">
                   <button className={style.button}>Ver detalhes</button>
                 </Link>
               </div>
             </div>
           </article>
           <Image
-            src={teste}
-            alt="Teste de Perfil"
+            src={perfilAboutMe}
+            alt="Foto de Perfil"
+            width={500}
+            height={500}
             className={style.aboutMeImage}
           />
         </div>

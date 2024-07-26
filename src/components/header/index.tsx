@@ -3,8 +3,10 @@ import style from "./index.module.scss";
 import Link from "next/link";
 import Navbar from "@/components/navbar";
 import Image from "next/image";
-import teste from "../../../public/assets/pessoa.png";
+import teste from "../../../public/assets/perfilPhoto.png";
 import CardItem from "../cardItem";
+import Lottie from "lottie-react";
+import scroll from "../../../public/assets/scroll.json";
 
 export default function Header() {
   return (
@@ -18,11 +20,9 @@ export default function Header() {
           </h1>
         </div>
         <div className={style.imageBox}>
-          <Image
-            src={teste}
-            alt="Teste de Perfil"
-            className={style.perfil}
-            layout="fill"
+          <Lottie 
+          animationData={scroll}
+          loop
           />
         </div>
       </section>

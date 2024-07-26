@@ -72,7 +72,7 @@ export default function NavBar() {
             </ReactScrol>
           </ol>
 
-          <Link href="profile.pdf" target="_blank">
+          <Link href="resume.pdf" target="_blank">
             <button className={style.navbarButton}>Currículo</button>
           </Link>
         </nav>
