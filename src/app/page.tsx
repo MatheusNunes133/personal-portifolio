@@ -25,11 +25,11 @@ export default function App() {
       <Header />
       <section className={style.secondSectionContainer}>
         <section className={style.secondSection}>
-          <Image 
+         {/*  <Image 
           src={perfilPhoto}
           alt="Foto de Perfil"
           className={style.perfilImage}
-          />
+          /> */}
           <div className={style.cardItensContainer}>
             <CardItem
               image={qualidadeIcon}

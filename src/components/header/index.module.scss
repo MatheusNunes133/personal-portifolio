@@ -18,15 +18,19 @@
 
         .titleBox{
             display: flex;
-            width: 80%;
+            flex-direction: column;
+            width: 60%;
             height: 100%;
+            padding-bottom: 2rem;
             align-items: center;
             justify-content: center;
+            gap: 2rem;
 
             h1{
                 font-size: 2rem;
+                font-weight: 500;
                 text-align: center;
-                line-height: 3.2rem;
+                line-height: 3rem;
                 span{
                     color: $purple-text;
                 }
@@ -44,9 +48,21 @@
                 }
             }
 
+            .perfilImage{
+
+                width: 140px;
+                height: 140px;
+                border-radius: 50%;
+                background: radial-gradient(circle, #bebcf8 30%, #c4d1ff 54%, white 100%, transparent 100%);
+            }
+
             @media (max-width:620px){
                 width: 90%;
             }
+        }
+
+        .imageBox{
+            width: 100px;
         }
 
         @media (max-width:620px){S
