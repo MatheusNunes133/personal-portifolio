@@ -158,7 +158,7 @@ export default function NavBar() {
                 </ReactScrol>
               </MenuItem>
               <MenuItem>
-                <Link href="profile.pdf" target="_blank" onClick={handleClose}>
+                <Link href="resume.pdf" target="_blank" onClick={handleClose}>
                   Currículo
                 </Link>
               </MenuItem>
